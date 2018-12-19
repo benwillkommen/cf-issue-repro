@@ -4,10 +4,10 @@ service:
 provider:
   name: cloudflare
   config:
-    workers:
-        helloworld: 
-          routes:
-            - yoursite.com/hello
+    # workers:
+    #     helloworld: 
+    #       routes:
+    #         - yoursite.com/hello
     accountId: <your account id>
     zoneId: <your zone id>
 
