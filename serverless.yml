@@ -17,6 +17,7 @@ plugins:
 functions:
   helloworld:
     name: helloworld
+    webpack: true
     worker: helloworld
     script: helloWorld
     events:
