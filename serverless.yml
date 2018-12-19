@@ -9,7 +9,7 @@ provider:
           routes:
             - yoursite.com/hello
     accountId: <your account id>
-    zoneId: <your zone id
+    zoneId: <your zone id>
 
 plugins:
   - serverless-cloudflare-workers
