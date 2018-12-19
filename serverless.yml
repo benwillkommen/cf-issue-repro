@@ -19,10 +19,10 @@ functions:
     name: helloworld
     worker: helloworld
     script: helloWorld
-    # events:
-    #   - http:
-    #       url: yoursite.com/hello
-    #       method: GET
-    #       headers:
-    #         foo: bar
-    #         x-client-data: value
+    events:
+      - http:
+          url: yoursite.com/hello
+          method: GET
+          headers:
+            foo: bar
+            x-client-data: value
